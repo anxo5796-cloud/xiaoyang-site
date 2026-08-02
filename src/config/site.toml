@@ -1,11 +1,11 @@
 [config.site]
-title = "xiaoyang-site"
-description = "A personal navigation portfolio starter built with Astro."
-pageTitle = "1angm21"
-pageDescription = "A calm AI-native personal publication space for notes, links, and writing."
-url = "https://astro.navfolio.site"
-repository = "https://github.com/dodolalorc/astro-navfolio"
-footerNote = "Released as an open-source starter."
+title = "1angm21的小站"
+description = "一名普通的学生记录自己摄影和片段的小站"
+pageTitle = "1angm21的小站"
+pageDescription = "一个安静的角落：摄影作品与生活碎片等"
+url = "https://xiaoyang-site.pages.dev"
+repository = "https://github.com/anxo5796-cloud/xiaoyang-site"
+footerNote = "翻到这里就祝你天天开心！"
 
 [config.theme]
 # 可用色盘：
@@ -118,13 +118,13 @@ pageview = true
 comment = true
 
 [config.profile]
-name = "navfolio"
-handle = "@navfolio"
-role = "A Cat Developer"
-email = "hello@navfolio.site"
-website = "https://astro.navfolio.site/"
-github = "https://github.com/dodolalorc/astro-navfolio"
-avatar = "/images/logo-thin.webp"
+name = "杨骁"
+handle = "@1angm21"
+role = "A SCUT Student"
+email = "18793799512@163.com"
+website = "https://xiaoyang-site.pages.dev/"
+github = "https://github.com/anxo5796-cloud"
+avatar = "/images/mayao-logo.png"
 
 [[config.topNav.links]]
 label = "Home"
@@ -154,21 +154,18 @@ href = "/about"
 
 [config.home.quote]
 text = [
-  "Navigate your world,",
-  "Showcase your story,",
-  "and keep everything in one place.",
+  "保持热爱,",
+  "奔赴山海",
+  "追求自己所爱的",
 ]
 
 [config.home.intro]
-title = "here is navfolio"
-name = "navfolio"
+title = "here is 1angm21"
+name = "1angm21"
 body = [
-  "The name combines \"Navigation\" and \"Portfolio\".",
-  "Navfolio prioritizes lightweight organization, seamless reading, and developer-friendly aesthetics.",
-  "It’s less a resume than a personal OS for your ideas, projects, notes, and online presence.",
-  "这个名字融合了“导航”与“作品集”。",
-  "Navfolio 专注于轻量级组织、流畅的阅读体验，以及对开发者友好的美学设计。",
-  "它不像一份简历，更像是一个属于你自己的个人操作系统——承载想法、项目、笔记与网络足迹。",
+  "一名在读华南理工大学光电专业的同学",
+  "沉迷于胶片的光影、音乐的节奏，以及行走在路上的不确定感",
+  "这里是我的数字空间，记录着我的折腾成果、摄影作品与随笔笔记",
 ]
 
 [config.home.latest]
@@ -270,21 +267,14 @@ tooltip = "https://www.bilibili.com/"
 copy = false
 
 [[config.home.doing]]
-text = "Shipping a personal dashboard template"
+text = "享受暑假！"
 mark = "01"
 
 [[config.home.doing]]
-text = "Writing reusable notes for future projects"
+text = "折腾这个不成熟的个人网站"
 mark = "02"
 
 [[config.home.doing]]
-text = "Improving static-site publishing workflow"
+text = "探索不同的彩色负片效果"
 mark = "03"
 
-[[config.home.doing]]
-text = "Collecting useful developer resources"
-mark = "04"
-
-[[config.home.doing]]
-text = "Exploring small open-source ideas"
-mark = "05"
