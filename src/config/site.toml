@@ -121,7 +121,7 @@ comment = true
 name = "杨骁"
 handle = "@1angm21"
 role = "A SCUT Student"
-email = "18793799512@163.com"
+email = "202430410985@mail.scut.edu.cn"
 website = "https://xiaoyang-site.pages.dev/"
 github = "https://github.com/anxo5796-cloud"
 avatar = "/images/mayao-logo.png"
@@ -179,43 +179,55 @@ dateArchiveBaseHref = ""
 [[config.home.navigation]]
 icon = "compass"
 title = "Portfolio"
-subtitle = "Selected work and case studies"
-href = "https://astro.navfolio.site/"
+subtitle = "各种折腾"
+href = "/projects"
 
 [[config.home.navigation]]
 icon = "pen"
 title = "Blog"
-subtitle = "Essays, notes, and field reports"
+subtitle = "一些随笔记录"
 href = "/blog"
 
 [[config.home.navigation]]
 icon = "briefcase"
 title = "Resume"
-subtitle = "Career profile and experience"
-href = "https://github.com/dodolalorc/navfolio"
+subtitle = "我的简历"
+href = "/about"
 
 [[config.home.navigation]]
 icon = "github"
-title = "Open Source"
-subtitle = "Code, experiments, and tools"
-href = "https://github.com/dodolalorc/astro-navfolio"
+title = "GitHub"
+subtitle = "代码与实验"
+href = "https://github.com/anxo5796-cloud"
 
 [[config.home.links]]
 label = "GitHub"
 icon = "github"
-tooltip = "https://github.com/dodolalorc/astro-navfolio"
+tooltip = "https://github.com/anxo5796-cloud"
 copy = false
 
-[[config.home.links]]
+[[config.home.links]] # 学校邮箱
+label = "学校邮箱"
+icon = "mail"
+tooltip = "202430410985@mail.scut.edu.cn"
+copy = true
+
+[[config.home.links]] # 网易邮箱（常用）
+label = "网易邮箱"
+icon = "at-sign"
+tooltip = "18793799512@163.com"
+copy = true
+
+[[config.home.links]] # 领英
 label = "LinkedIn"
 icon = "linkedin"
-tooltip = "https://www.linkedin.com/"
+tooltip = ""
 copy = false
 
-[[config.home.links]]
+[[config.home.links]] #推特
 label = "X"
 icon = "x"
-tooltip = "" # 留空会隐藏这个链接项。
+tooltip = "https://x.com/1angm21" # 留空会隐藏这个链接项。
 copy = false
 
 [[config.home.links]]
@@ -224,46 +236,47 @@ icon = "rss"
 tooltip = "/rss.xml"
 copy = false
 
-[[config.home.links]]
-label = "Email"
-icon = "mail"
-tooltip = "hello@navfolio.site"
-copy = true
 
 [[config.home.links]]
 label = "QQ"
 icon = "qq"
-tooltip = "123456789"
+tooltip = "2259788103"
 copy = true
 
 [[config.home.links]]
 label = "WeChat"
 icon = "wechat"
-tooltip = "navfolio"
+tooltip = "ysy1angm21"
 copy = true
 
 [[config.home.links]]
 label = "Weibo"
 icon = "weibo"
-tooltip = "https://weibo.com/"
+tooltip = ""
 copy = false
 
 [[config.home.links]]
 label = "Xiaohongshu"
 icon = "xiaohongshu"
-tooltip = "https://www.xiaohongshu.com/"
+tooltip = "https://www.xiaohongshu.com/user/profile/5dd0059a000000000100520c"
 copy = false
 
 [[config.home.links]]
 label = "Zhihu"
 icon = "zhihu"
-tooltip = "https://www.zhihu.com/"
+tooltip = ""
 copy = false
 
 [[config.home.links]]
 label = "Bilibili"
 icon = "bilibili"
-tooltip = "https://www.bilibili.com/"
+tooltip = "https://space.bilibili.com/306928158"
+copy = false
+
+[[config.home.links]]
+label = "网易云音乐"
+icon = "netease-cloud-music"
+tooltip = "https://music.163.com/playlist?id=2001614161"
 copy = false
 
 [[config.home.doing]]
