@@ -291,3 +291,7 @@ mark = "02"
 text = "探索不同的彩色负片效果"
 mark = "03"
 
+[[config.home.doing]]
+text = "胶片漂流计划你说有没有搞头"
+mark = "04"
+
