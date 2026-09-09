@@ -1,2 +1,8 @@
 @import './fonts.css';
 @import 'katex/dist/katex.min.css';
+
+/* 书影音页：不看书，隐藏空的"书"分区 */
+section[data-media-section][id='books'],
+a[href='#books'] {
+  display: none;
+}
